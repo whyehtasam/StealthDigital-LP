@@ -363,6 +363,15 @@ margin-right: 7px;
 
 }
 
+.title, .desc{
+    text-align: center;
+    margin: 0 auto;
+
+}
+.industries {
+    /* background: #0000002c; */
+}
+
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -385,6 +394,8 @@ margin-right: 7px;
     margin-top: 0;
     margin-bottom: 50px;
 }
+
+
     .choose-wrap {
     margin-top: 50px;
 }

@@ -3404,8 +3404,18 @@ width: 85%;
 /* 12. counter */
 
 .counter-area {
-margin-top: -290px;
-padding-top: 370px;
+padding: 10rem;
+}
+
+@media screen and (max-width: 791px) {
+    .counter-area {
+        padding: 5rem;
+    }
+}
+@media screen and (max-width: 430px) {
+    .counter-area {
+        padding: 5rem 0rem;
+    }
 }
 .counter-bg{
     border-radius: 8px;
