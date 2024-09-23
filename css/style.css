@@ -3677,7 +3677,7 @@ section:hover .section-title h2::before {
   line-height: 1;
   display: inline-block;
   font-family: "Poppins", sans-serif;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 .counter small {
   font-size: 35px;
