@@ -3853,6 +3853,11 @@ section:hover .section-title h2::before {
   overflow: hidden;
   align-items: center;
 }
+.testi-author img {
+ height: 80px;
+ width: 60%;
+ object-fit: contain;
+}
 .single-testimonial p {
   margin-bottom: 25px;
 }
@@ -10840,4 +10845,40 @@ blockquote a {
   75% {
     border-radius: 48% 52% 68% 32% / 78% 54% 46% 22%;
   }
+}
+
+
+/* Container for the images with overlay */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.choose-img {
+  width: 100%;
+  display: block;
+}
+
+/* Overlay container */
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100px; /* Adjust height as needed */
+  display: none; /* Initially hidden */
+}
+
+.overlay-description {
+  margin: 0 auto ;
+  padding: 0 0 10px;
+  font-size: 14px;
 }
