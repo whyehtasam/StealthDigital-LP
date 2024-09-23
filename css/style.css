@@ -2590,6 +2590,9 @@ border-bottom: 1px solid #ed1e24;
 display: inline-block;
     color: #ed1e24;
 }
+.services-08-item{
+    
+}
 .services-08-item:hover .readmore{
     color: #fff;
 }
