@@ -4364,7 +4364,7 @@ section:hover .section-title h2::before {
 .home-blog-active .slick-arrow,
 .home-blog-active2 .slick-arrow {
   position: absolute;
-  top: 75%;
+  top: 85%;
   transform: translateY(-50%);
   left: -365px;
   border: none;
@@ -10853,11 +10853,14 @@ blockquote a {
   position: relative;
   width: 100%;
   height: auto;
+  overflow: hidden;
+ 
 }
 
 .choose-img {
   width: 100%;
-  display: block;
+  display: block; 
+  border-radius: 10px;
 }
 
 /* Overlay container */
@@ -10866,7 +10869,7 @@ blockquote a {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -10875,10 +10878,16 @@ blockquote a {
   justify-content: center;
   height: 100px; /* Adjust height as needed */
   display: none; /* Initially hidden */
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
 }
 
 .overlay-description {
   margin: 0 auto ;
   padding: 0 0 10px;
   font-size: 14px;
+  font-weight: bold;
+ 
+  
 }

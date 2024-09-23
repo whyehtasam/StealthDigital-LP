@@ -419,7 +419,8 @@ $('.home-blog-active').slick({
 	infinite: true,
 	arrows: true,
 	speed: 1000,
-	slidesToShow:2,
+	
+	slidesToShow:1,
 	slidesToScroll: 1,
     prevArrow: '<button type="button" class="slick-prev"><i class="far fa-chevron-left"></i></button>',
 	nextArrow: '<button type="button" class="slick-next"><i class="far fa-chevron-right"></i></button>',
@@ -427,7 +428,7 @@ $('.home-blog-active').slick({
 		{
 			breakpoint: 1200,
 			settings: {
-				slidesToShow: 2,
+				slidesToShow: 1,
 				slidesToScroll: 1,
 				infinite: true,
 				dots: true
