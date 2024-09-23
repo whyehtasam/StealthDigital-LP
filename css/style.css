@@ -1209,7 +1209,7 @@ label {
 /* 3. slider */
 
 .slider-bg {
-  min-height: 900px !important;
+  min-height: 725px !important;
   background-position: center bottom;
   background-size: cover;
   position: relative;
@@ -1716,7 +1716,7 @@ label {
 }
 .s-about-text sub {
   font-size: 70px;
-  margin-left: -76px;
+  /* margin-left: -76px; */
   position: initial;
   top: 0;
 }
