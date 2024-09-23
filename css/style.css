@@ -10896,8 +10896,35 @@ blockquote a {
   
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:700px) {
   .choose-list h4{
     font-size: large;
   }
+  .additional-image img {
+    object-fit: cover;
+    height: auto;
+    width: 100% !important;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+     
+    /* margin: 0 auto; */
+  }
+}
+
+.additional-image{
+  width: 100%;
+  /* height: 80%; */
+  object-fit: cover;
+  /* padding: 2rem 0; */
+  display: flex;
+  justify-content: end;
+}
+.additional-image img {
+  object-fit: cover;
+  height: 360px;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   
+  /* margin: 0 auto; */
 }
