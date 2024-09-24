@@ -10873,10 +10873,10 @@ blockquote a {
   color: #fff;
   padding: 10px;
   text-align: center;
-  display: flex;
+  display: flex !important;
   align-items: flex-end;
   justify-content: center;
-  height: 100px; /* Adjust height as needed */
+  height: 100%; /* Adjust height as needed */
   display: none; /* Initially hidden */
   background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1));
   overflow: hidden;
@@ -10888,6 +10888,7 @@ blockquote a {
   padding: 0 0 10px;
   font-size: 14px;
   font-weight: bold;
+  line-height: normal;
  
   
 }
@@ -10897,6 +10898,15 @@ blockquote a {
 }
 
 @media screen and (max-width:700px) {
+  .overlay-description {
+    margin: 0 auto ;
+    padding: 0 0 10px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+   
+    
+  }
   .choose-list h4{
     font-size: large;
   }
