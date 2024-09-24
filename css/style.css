@@ -11013,7 +11013,7 @@ left: 0;
   /* padding: 20px; */
   border-radius: 5px;
   max-width: 600px;
-  width: 80%;
+  width: 90%;
   height: 90vh;
   position: relative;
   z-index: 10000; /* Ensure modal content is above the backdrop */
@@ -11031,7 +11031,7 @@ left: 0;
 
 @media (max-width: 767px) {
   #contact-bg02 {
-      padding: 30px;
+      padding: 20px;
       margin-bottom: 0px;
   }
 }
