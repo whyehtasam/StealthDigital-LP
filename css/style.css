@@ -968,7 +968,7 @@ label {
   border-bottom: 1px solid #ffffff7d;
   position: relative;
   z-index: 9;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .header-three .main-menu ul li a {
