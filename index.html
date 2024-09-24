@@ -1504,26 +1504,21 @@
     <!-- image hover effect on services -->
     <script>
       $(document).ready(function () {
-        // Initially show the first image
-        $(".service-image").first().addClass("active").show();
+    // Initially show the first image
+    $("#service-img .service-image").hide().first().show();
 
-        // Handle hover events on each card
-        $(".services-08-item").hover(function () {
-          var index = $(this).index(); // Get the index of the hovered card
+    // Handle hover events on each service item
+    $(".services-08-item").hover(function () {
+        var index = $(this).parent().index() - 1; // Adjust index to match image
 
-          // Fade out the currently active image
-          $("#service-img .service-image.active")
-            .removeClass("active")
-            .fadeOut(300, function () {
-              // Fade in the new image
-              $("#service-img .service-image")
-                .eq(index)
-                .addClass("active")
-                .fadeIn(300);
-            });
-        });
-      });
+        // Show the corresponding image
+        $("#service-img .service-image").stop(true, true).fadeOut(300);
+        $("#service-img .service-image").eq(index).stop(true, true).fadeIn(300);
+    });
+});
+
     </script>
+    
     <script>
       $(document).ready(function () {
         // Initially show the first image for "Performance Marketing"
