@@ -23,7 +23,7 @@
 
 */
 * {
-  cursor: none;
+  /* cursor: none; */
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
@@ -3599,7 +3599,7 @@ section:hover .section-title h2::before {
 /* 12. counter */
 
 .counter-area {
-  padding: 10rem;
+  padding: 5rem 10rem;
 }
 
 @media screen and (max-width: 791px) {
@@ -3854,9 +3854,9 @@ section:hover .section-title h2::before {
   align-items: center;
 }
 .testi-author img {
- height: 80px;
- width: 60%;
- object-fit: contain;
+  height: 80px;
+  width: 60%;
+  object-fit: contain;
 }
 .single-testimonial p {
   margin-bottom: 25px;
@@ -5044,9 +5044,9 @@ section:hover .section-title h2::before {
   height: calc(2.5em + 0.75rem + 2px);
 }
 #service {
-    border: 1px solid #777777;
-    border-radius: 10px;
-    height: calc(2.7em + .75rem + 2px);
+  border: 1px solid #777777;
+  border-radius: 10px;
+  height: calc(2.7em + 0.75rem + 2px);
 }
 
 .contact-field.c-name::after {
@@ -10847,19 +10847,17 @@ blockquote a {
   }
 }
 
-
 /* Container for the images with overlay */
 .image-container {
   position: relative;
   width: 100%;
   height: auto;
   overflow: hidden;
- 
 }
 
 .choose-img {
   width: 100%;
-  display: block; 
+  display: block;
   border-radius: 10px;
 }
 
@@ -10884,30 +10882,25 @@ blockquote a {
 }
 
 .overlay-description {
-  margin: 0 auto ;
+  margin: 0 auto;
   padding: 0 0 10px;
   font-size: 14px;
   font-weight: bold;
   line-height: normal;
- 
-  
 }
-.choose-list h4{
+.choose-list h4 {
   color: darkslategrey;
-  
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width: 700px) {
   .overlay-description {
-    margin: 0 auto ;
+    margin: 0 auto;
     padding: 0 0 10px;
     font-size: 12px;
     font-weight: 500;
     line-height: normal;
-   
-    
   }
-  .choose-list h4{
+  .choose-list h4 {
     font-size: large;
   }
   .additional-image img {
@@ -10915,13 +10908,13 @@ blockquote a {
     height: auto;
     width: 100% !important;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-     
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
     /* margin: 0 auto; */
   }
 }
 
-.additional-image{
+.additional-image {
   width: 100%;
   /* height: 80%; */
   object-fit: cover;
@@ -10934,44 +10927,39 @@ blockquote a {
   height: 360px;
   width: 80%;
   border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-   
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
   /* margin: 0 auto; */
 }
 
-#service-img{
+#service-img {
   column-span: 2;
   /* border: 1px solid black; */
   height: 285px;
   margin-bottom: 30px;
 }
 
-.industries-div{
- 
-
-position: relative;;
-/* border: 5px solid black; */
+.industries-div {
+  position: relative;
+  /* border: 5px solid black; */
 }
 
-.industries-div .overlay-img{
+.industries-div .overlay-img {
   background: -webkit-linear-gradient(0deg, #fff 0%, #f5f8ff 100%);
-background: linear-gradient(0deg, #020202 0%, #f5f8ff 100%);
-position: absolute;
-height: 100%;
-width: 100%;
-opacity: 0.8 ;
-z-index: 1;
-/* border: #000; */
-top: 0;
-left: 0;
+  background: linear-gradient(0deg, #020202 0%, #f5f8ff 100%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  z-index: 1;
+  /* border: #000; */
+  top: 0;
+  left: 0;
 }
 
-.industries-div .overlay-img:hover{
-
+.industries-div .overlay-img:hover {
   background: none;
-
 }
-
 
 /* Modal Styles */
 .modal {
@@ -10996,7 +10984,7 @@ left: 0;
   height: 90vh;
   position: relative;
   z-index: 10000; /* Ensure modal content is above the backdrop */
-  overflow-y:scroll ;
+  overflow-y: scroll;
 }
 
 .close-btn {
@@ -11010,19 +10998,56 @@ left: 0;
 
 @media (max-width: 767px) {
   #contact-bg02 {
-      padding: 20px;
-      margin-bottom: 0px;
+    padding: 20px;
+    margin-bottom: 0px;
   }
 
   #service-img {
-   display: none !important;
+    display: none !important;
+  }
+  .services-08-content h3 {
+    font-size: 18px !important;
+  }
+
+  .testi-author img {
+    /* height: 80px; */
+    width: 100% !important;
+    /* object-fit: contain; */
+  }
+
+  section {
+    padding: 30px 0 !important;
+  }
+  .counter-area {
+    padding: 30px 0 !important;
+  }
+
+  #about {
+    padding: 30px 0 !important;
+  }
+  .section-title h2 {
+    text-align: center;
+  }
+
+  .contact-bg02 {
+    padding: 30px;
+    margin-bottom: 30px !important;
+}
+}
+@media screen and (max-width: 500px) {
+  section {
+    padding: 30px auto 0 auto !important;
+  }
+
+  .social {
+    margin: 20px 0;
   }
 }
 
 /* service img style effect */
 
- /* Optional CSS for fading effect and hiding images */
- #service-img {
+/* Optional CSS for fading effect and hiding images */
+#service-img {
   position: relative;
   height: 258px; /* Adjust as needed */
   overflow: hidden;
@@ -11047,12 +11072,33 @@ left: 0;
 .service-image.active {
   display: block; /* Show the active image */
 }
-*{
+* {
   scroll-behavior: smooth;
 }
 
 .menu-one-page-menu-container {
-position: absolute;
+  position: absolute;
   top: 0;
   bottom: 0;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.social a {
+  color: white;
+  border: 1px solid white;
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex !important;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
 }

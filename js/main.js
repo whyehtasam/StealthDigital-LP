@@ -321,7 +321,7 @@ $('.brand-active').slick({
 
 // testimonial-active
 $('.testimonial-active').slick({
-	dots: true,
+	// dots: true,
 	infinite: true,
 	arrows: false,
 	speed: 1000,
@@ -350,7 +350,12 @@ $('.testimonial-active').slick({
 			breakpoint: 767,
 			settings: {
 				slidesToShow: 1,
-				slidesToScroll: 1
+				slidesToScroll: 1,
+				dots:true,
+				infinite: true,
+				autoplay: true,
+				autoplaySpeed: 3000,
+
 			}
 		}
 	]
@@ -419,6 +424,8 @@ $('.home-blog-active').slick({
 	infinite: true,
 	arrows: true,
 	speed: 1000,
+	autoplay:true,
+	autoplaySpeed:2000,
 	
 	slidesToShow:1,
 	slidesToScroll: 1,
