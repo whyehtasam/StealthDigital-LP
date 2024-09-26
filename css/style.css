@@ -10982,7 +10982,7 @@ blockquote a {
   border-radius: 5px;
   max-width: 600px;
   width: 90%;
-  height: 95vh;
+  height: 90vh;
   position: relative;
   z-index: 10000; /* Ensure modal content is above the backdrop */
   /* overflow-y: scroll; */
@@ -11074,7 +11074,16 @@ blockquote a {
   .card-section{
     grid-template-columns: repeat(1, 1fr) !important;
   }
-
+  .logo-box img {
+    /* max-height: 50px; Adjust the height as needed */
+    max-width: 100%; 
+    object-fit: contain;
+    height: 100%;
+  }
+  .modal-content{
+    height: 95vh !important;
+    overflow-y: auto;
+  }
 }
 
 
