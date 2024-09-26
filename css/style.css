@@ -4305,7 +4305,7 @@ section:hover .section-title h2::before {
 }
 .contact-bg02 {
   background: #f6f8fa;
-  padding: 80px;
+  padding: 20px 50px;
   border-radius: 10px;
 }
 .contact-bg02 .contact-field textarea {
@@ -10976,15 +10976,16 @@ blockquote a {
 }
 
 .modal-content {
-  background-color: #fff;
+  /* background-color: #fff; */
   /* padding: 20px; */
+  background: #f6f8fa;
   border-radius: 5px;
   max-width: 600px;
   width: 90%;
-  height: 90vh;
+  height: 95vh;
   position: relative;
   z-index: 10000; /* Ensure modal content is above the backdrop */
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .close-btn {
@@ -11031,7 +11032,10 @@ blockquote a {
 
   .contact-bg02 {
     padding: 30px;
-    margin-bottom: 30px !important;
+    /* margin-bottom: 30px !important; */
+}
+.modal-content{
+  height: auto !important;
 }
 }
 @media screen and (max-width: 500px) {
@@ -11074,6 +11078,9 @@ blockquote a {
 }
 * {
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #333 #f5f5f5;
+
 }
 
 .menu-one-page-menu-container {

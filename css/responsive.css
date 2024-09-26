@@ -1350,7 +1350,7 @@ height: auto !important;
     }
     .contact-bg02 {
     padding: 30px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
 }
     .contact-bg-an-02 {
     right: -100px;
