@@ -37,6 +37,30 @@ body {
   line-height: 26px;
   position: relative;
 }
+.phone {
+  position: fixed;
+  right: 50px;
+  bottom: 200px;
+  z-index: 999999;
+  width: 50px;
+  cursor: pointer;
+  background: #000;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 40px;
+  bottom: 130px;
+  z-index: 999999; 
+  width: 60px;
+  cursor: pointer;
+}
+
+.strip{
+  display: none;
+}
 .logo {
   width: 190px;
 }
@@ -11084,6 +11108,43 @@ blockquote a {
     height: 95vh !important;
     overflow-y: auto;
   }
+  .whatsapp, .phone{
+    display: none ;
+  }
+
+  .strip{
+    display: flex !important;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+    /* left: 0; */
+    /* right: 0; */
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    /* background: #fff; */
+    background-color: white;
+    /* grid-template-columns: repeat(2, 1fr); */
+    background: red;
+    opacity: 0.9;
+  }
+  .strip h5 {
+    letter-spacing: 1px;
+  }
+
+  /* .strip-phone{
+    height: 100%;
+    background: green;
+    width: 100%;
+
+  }
+  .strip-whatsapp{
+    height: 100%;
+    background-color: red;
+    width: 100%;
+
+  } */
 }
 
 
