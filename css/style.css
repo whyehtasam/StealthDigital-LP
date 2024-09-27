@@ -11083,13 +11083,16 @@ blockquote a {
   .grid{
     padding: 30px!important;
   }
-
+.grid:last-child {
+  font-size: x-small !important;
+}
   .logo-box{
     filter: grayscale(0) !important;
     box-shadow: none !important;
   }
   .logo-box img{
     scale: 1.01 !important;
+    object-fit: contain !important;
   }
   .footer-container p{
     text-align: center !important;
@@ -11108,8 +11111,20 @@ blockquote a {
     height: 95vh !important;
     overflow-y: auto;
   }
-  .whatsapp, .phone{
+  .whatsapp {
     display: none ;
+  }
+
+  .phone {
+ 
+  right: 19px;
+  bottom: 91px;
+  
+  width: 50px;
+  cursor: pointer;
+  background: #000;
+  border-radius: 50%;
+  padding: 10px;
   }
 
   .strip{
@@ -11133,18 +11148,9 @@ blockquote a {
     letter-spacing: 1px;
   }
 
-  /* .strip-phone{
-    height: 100%;
-    background: green;
-    width: 100%;
-
+  .footer-bottom{
+    margin-bottom: 30px;
   }
-  .strip-whatsapp{
-    height: 100%;
-    background-color: red;
-    width: 100%;
-
-  } */
 }
 
 
@@ -11540,4 +11546,25 @@ footer {
   padding-bottom: 20px;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+
+.top-strip {
+  background-color: transparent; /* Background color of the strip */
+  color: whitesmoke; /* Text color */
+  font-size: 14px;
+  padding: 10px 0;
+  /* position: fixed; */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999; /* Ensure it's always above other elements */
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  padding: 10px;
 }
