@@ -11009,7 +11009,7 @@ blockquote a {
   height: 90vh;
   position: relative;
   z-index: 10000; /* Ensure modal content is above the backdrop */
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
 }
 
 .close-btn {
